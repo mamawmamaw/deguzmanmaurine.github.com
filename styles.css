@@ -1,0 +1,145 @@
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.categories select {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.search input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notification-icon {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.cart-icon {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.user-actions button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+    margin-left: 640px;
+    height: 50px;
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.product {
+    width: calc(30% - 20px); 
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    margin: 20px 0;
+}
+
+
+.container2 {
+    padding: 20px;
+    margin-left: 570px;
+
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.product2 {
+    width: calc(30% - 20px); 
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.product2 img {
+    max-width: 100%;
+}
+
+.product2 h2 {
+    margin: 20px 0;
+}
+
+
+.product button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product2 button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
